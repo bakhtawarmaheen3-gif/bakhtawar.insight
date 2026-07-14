@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakhtawar Insights — News, Analysis &amp; Ideas on AI, Business &amp; Technology</title>
+<meta name="description" content="Bakhtawar Insights delivers sharp daily coverage on AI, SEO, Digital Marketing, Technology, Business, Finance, Health, Education, Lifestyle and Travel.">
+<link rel="canonical" href="https://www.bakhtawarinsights.com/" id="canonicalLink">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bakhtawar Insights">
+<meta property="og:title" id="ogTitle" content="Bakhtawar Insights — News, Analysis & Ideas">
+<meta property="og:description" id="ogDesc" content="Sharp daily coverage on AI, SEO, Digital Marketing, Technology, Business, Finance, Health, Education, Lifestyle and Travel.">
+<meta property="og:image" id="ogImage" content="https://picsum.photos/seed/bakhtawar-cover/1200/630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" id="twTitle" content="Bakhtawar Insights">
+<meta name="twitter:description" id="twDesc" content="Sharp daily coverage on AI, SEO, Digital Marketing, Technology and more.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230B0E14%22/><text x=%2250%22 y=%2266%22 font-size=%2258%22 font-family=%22Georgia%22 fill=%22%232F6BFF%22 text-anchor=%22middle%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json" id="orgSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "Bakhtawar Insights",
+  "url": "https://www.bakhtawarinsights.com",
+  "logo": "https://www.bakhtawarinsights.com/logo.png",
+  "sameAs": ["https://twitter.com/bakhtawarinsights","https://facebook.com/bakhtawarinsights","https://linkedin.com/company/bakhtawarinsights"]
+}
+</script>
+<style>
+:root{
+  --bg:#ffffff;
+  --surface:#f6f8fb;
+  --surface-2:#eef1f6;
+  --ink:#0b0e14;
+  --ink-soft:#4d5563;
+  --line:#e4e8ef;
+  --blue:#1b4dff;
+  --blue-deep:#0a1f6b;
+  --blue-soft:#eaf0ff;
+  --radius:14px;
+  --maxw:1240px;
+  --shadow:0 8px 30px -12px rgba(11,14,20,.15);
+  color-scheme: light;
+}
+html.dark{
+  --bg:#0b0e14;
+  --surface:#12161f;
+  --surface-2:#171c27;
+  --ink:#e9ecf2;
+  --ink-soft:#9aa3b2;
+  --line:#232a38;
+  --blue:#5f86ff;
+  --blue-deep:#c7d5ff;
+  --blue-soft:#161d33;
+  --shadow:0 8px 30px -12px rgba(0,0,0,.6);
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  transition:background .25s ease, color .25s ease;
+}
+h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif; margin:0; letter-spacing:-.01em}
+.mono{font-family:'IBM Plex Mono',monospace}
+a{color:inherit; text-decoration:none}
+img{max-width:100%; display:block}
+.container{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+.skip-link{position:absolute; left:-999px; top:0; background:var(--blue); color:#fff; padding:10px 16px; z-index:999; border-radius:0 0 8px 0}
+.skip-link:focus{left:0}
+
+/* Progress bar */
+#progressBar{position:fixed; top:0; left:0; height:3px; background:var(--blue); width:0%; z-index:1200; transition:width .1s linear}
+
+/* Header */
+header.site-header{position:sticky; top:0; z-index:1000; background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:saturate(180%) blur(10px); border-bottom:1px solid var(--line)}
+.header-inner{display:flex; align-items:center; justify-content:space-between; padding:16px 24px; max-width:var(--maxw); margin:0 auto; gap:20px}
+.logo{display:flex; align-items:center; gap:10px; font-family:'Fraunces',serif; font-weight:700; font-size:22px}
+.logo .mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(145deg,var(--blue),var(--blue-deep));color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;flex:none}
+nav.primary-nav{display:flex; gap:26px; align-items:center}
+nav.primary-nav a{font-size:14.5px; font-weight:600; color:var(--ink-soft); position:relative; padding:6px 0}
+nav.primary-nav a.active, nav.primary-nav a:hover{color:var(--ink)}
+nav.primary-nav a.active::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--blue);border-radius:2px}
+.dropdown{position:relative}
+.dropdown-menu{position:absolute; top:130%; left:0; background:var(--bg); border:1px solid var(--line); border-radius:10px; min-width:190px; padding:8px; box-shadow:var(--shadow); display:none; flex-direction:column; gap:2px}
+.dropdown:hover .dropdown-menu, .dropdown:focus-within .dropdown-menu{display:flex}
+.dropdown-menu a{padding:8px 10px; border-radius:7px; font-size:13.5px}
+.dropdown-menu a:hover{background:var(--surface)}
+.header-actions{display:flex; align-items:center; gap:10px}
+.icon-btn{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--ink);position:relative}
+.icon-btn:hover{border-color:var(--blue)}
+.badge-count{position:absolute; top:-6px; right:-6px; background:var(--blue); color:#fff; font-size:10px; min-width:16px; height:16px; border-radius:8px; display:flex; align-items:center; justify-content:center; padding:0 4px}
+.burger{display:none}
+
+/* Ticker */
+.ticker-wrap{background:var(--ink); color:#fff; overflow:hidden; white-space:nowrap; position:relative}
+html.dark .ticker-wrap{background:var(--surface-2)}
+.ticker-label{position:absolute; left:0; top:0; bottom:0; background:var(--blue); color:#fff; font-size:11px; font-weight:700; letter-spacing:.08em; display:flex; align-items:center; padding:0 14px; z-index:2; text-transform:uppercase}
+.ticker-track{display:inline-block; padding-left:150px; animation:scrollTicker 32s linear infinite; font-size:13px; padding-top:9px; padding-bottom:9px}
+.ticker-track span{margin-right:48px; opacity:.92}
+@keyframes scrollTicker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* Buttons */
+.btn{display:inline-flex; align-items:center; gap:8px; padding:12px 20px; border-radius:10px; font-weight:700; font-size:14px; cursor:pointer; border:1px solid transparent}
+.btn-primary{background:var(--blue); color:#fff}
+.btn-primary:hover{background:var(--blue-deep)}
+.btn-outline{background:transparent; border-color:var(--line); color:var(--ink)}
+.btn-outline:hover{border-color:var(--blue); color:var(--blue)}
+.btn-sm{padding:8px 14px; font-size:12.5px; border-radius:8px}
+
+/* eyebrow / meta */
+.eyebrow{font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--blue); font-weight:600}
+.meta-line{display:flex; flex-wrap:wrap; gap:10px; align-items:center; font-size:12.5px; color:var(--ink-soft); font-family:'IBM Plex Mono',monospace}
+.dot::before{content:"·"; margin-right:10px; opacity:.6}
+
+section{padding:56px 0}
+.section-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:28px; gap:16px; flex-wrap:wrap}
+.section-head h2{font-size:28px}
+.section-head .see-all{font-size:13px; font-weight:700; color:var(--blue)}
+
+/* Hero */
+.hero{padding-top:40px}
+.hero-grid{display:grid; grid-template-columns:1.5fr 1fr; gap:28px}
+.hero-feature{position:relative; border-radius:var(--radius); overflow:hidden; min-height:460px; display:flex; align-items:flex-end; box-shadow:var(--shadow)}
+.hero-feature img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0}
+.hero-feature::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg, rgba(4,8,20,.92) 0%, rgba(4,8,20,.3) 55%, transparent 100%); z-index:1}
+.hero-feature .hf-content{position:relative; z-index:2; padding:32px; color:#fff}
+.hero-feature h1{font-size:32px; line-height:1.15; margin:10px 0}
+.hero-feature p{color:#d6ddf0; font-size:14.5px; max-width:52ch}
+.hero-dots{display:flex; gap:6px; margin-top:16px}
+.hero-dots button{width:22px; height:4px; border-radius:2px; border:none; background:rgba(255,255,255,.35); cursor:pointer}
+.hero-dots button.active{background:#fff}
+.hero-side{display:flex; flex-direction:column; gap:16px}
+.side-item{display:flex; gap:14px; padding:12px; border-radius:12px; border:1px solid var(--line); background:var(--surface)}
+.side-item img{width:92px; height:92px; object-fit:cover; border-radius:9px; flex:none}
+.side-item h4{font-size:15px; line-height:1.3; margin-top:6px}
+
+/* Cards / grid */
+.grid{display:grid; gap:24px}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+.grid-4{grid-template-columns:repeat(4,1fr)}
+.card{border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--bg); display:flex; flex-direction:column; transition:transform .2s ease, box-shadow .2s ease}
+.card:hover{transform:translateY(-3px); box-shadow:var(--shadow)}
+.card img{width:100%; height:180px; object-fit:cover}
+.card .card-body{padding:16px; display:flex; flex-direction:column; gap:8px; flex:1}
+.card h3{font-size:17px; line-height:1.3}
+.card p.excerpt{font-size:13.5px; color:var(--ink-soft); line-height:1.5}
+.cat-pill{display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:4px 9px; border-radius:6px; background:var(--blue-soft); color:var(--blue); width:fit-content}
+
+/* Categories tiles */
+.cat-tile{border:1px solid var(--line); border-radius:12px; padding:20px; background:var(--surface); display:flex; flex-direction:column; gap:6px}
+.cat-tile .n{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-soft)}
+.cat-tile h4{font-size:17px}
+.cat-tile:hover{border-color:var(--blue)}
+
+/* Newsletter */
+.newsletter{background:linear-gradient(120deg,var(--blue-deep),var(--blue)); border-radius:20px; padding:44px; color:#fff; display:flex; align-items:center; justify-content:space-between; gap:30px; flex-wrap:wrap}
+.newsletter h2{color:#fff; font-size:26px}
+.newsletter p{color:#dbe4ff; font-size:14px; max-width:46ch}
+.nl-form{display:flex; gap:10px; flex-wrap:wrap}
+.nl-form input{padding:13px 16px; border-radius:10px; border:none; min-width:240px; font-size:14px}
+.nl-form .btn{background:#0b0e14}
+
+/* Footer */
+footer{border-top:1px solid var(--line); margin-top:40px; background:var(--surface)}
+.footer-grid{display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:32px; padding:52px 0 28px}
+.footer-grid h5{font-size:13px; margin-bottom:14px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-soft)}
+.footer-grid ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px}
+.footer-grid ul a{font-size:13.5px; color:var(--ink-soft)}
+.footer-grid ul a:hover{color:var(--blue)}
+.social-row{display:flex; gap:10px; margin-top:12px}
+.footer-bottom{border-top:1px solid var(--line); padding:18px 0; display:flex; justify-content:space-between; font-size:12.5px; color:var(--ink-soft); flex-wrap:wrap; gap:10px}
+
+/* Cookie consent */
+.cookie-banner{position:fixed; bottom:16px; left:16px; right:16px; max-width:560px; margin:0 auto; background:var(--bg); border:1px solid var(--line); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow); z-index:1300; display:flex; gap:14px; align-items:center; flex-wrap:wrap}
+.cookie-banner p{font-size:13px; color:var(--ink-soft); margin:0; flex:1; min-width:200px}
+
+/* Breadcrumb */
+.breadcrumb{font-size:13px; color:var(--ink-soft); display:flex; gap:6px; flex-wrap:wrap; padding:18px 0}
+.breadcrumb a:hover{color:var(--blue)}
+
+/* Article page */
+.article-layout{display:grid; grid-template-columns:2.2fr 1fr; gap:40px; align-items:start}
+.article-hero-img{width:100%; height:380px; object-fit:cover; border-radius:var(--radius); margin-bottom:22px}
+.article-title{font-size:36px; line-height:1.15; margin-bottom:14px}
+.article-body{font-size:16.5px; line-height:1.8; color:var(--ink)}
+.article-body h2{font-size:23px; margin-top:34px; margin-bottom:12px}
+.article-body p{margin:0 0 18px}
+.share-row{display:flex; gap:8px; margin:26px 0; flex-wrap:wrap}
+.share-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:14px;cursor:pointer;background:var(--surface)}
+.share-btn:hover{border-color:var(--blue); color:var(--blue)}
+.toc-box{border:1px solid var(--line); border-radius:12px; padding:18px; background:var(--surface); position:sticky; top:96px}
+.toc-box h5{font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-soft); margin-bottom:10px}
+.toc-box ol{margin:0; padding-left:18px; font-size:13.5px; display:flex; flex-direction:column; gap:8px}
+.toc-box a:hover{color:var(--blue)}
+.author-bio{display:flex; gap:16px; border:1px solid var(--line); border-radius:14px; padding:20px; margin:36px 0; background:var(--surface)}
+.author-bio img{width:64px; height:64px; border-radius:50%; flex:none}
+.faq-item{border-bottom:1px solid var(--line); padding:14px 0}
+.faq-item summary{cursor:pointer; font-weight:600; font-size:15px; list-style:none; display:flex; justify-content:space-between}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item p{color:var(--ink-soft); font-size:14px; margin-top:10px}
+.prevnext{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:36px 0}
+.pn-card{border:1px solid var(--line); border-radius:12px; padding:16px; background:var(--surface)}
+.pn-card .eyebrow{font-size:10.5px}
+.comment{display:flex; gap:12px; padding:16px 0; border-bottom:1px solid var(--line)}
+.comment img{width:40px;height:40px;border-radius:50%; flex:none}
+.comment-form textarea{width:100%; border:1px solid var(--line); border-radius:10px; padding:12px; font-family:inherit; min-height:90px; resize:vertical; background:var(--bg); color:var(--ink)}
+
+/* Search / archive controls */
+.filter-bar{display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:26px; padding:16px; border:1px solid var(--line); border-radius:12px; background:var(--surface)}
+.filter-bar input[type=search], .filter-bar select{padding:10px 12px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--ink); font-size:13.5px}
+.chip{border:1px solid var(--line); border-radius:20px; padding:6px 14px; font-size:12.5px; cursor:pointer; background:var(--bg)}
+.chip.active{background:var(--blue); border-color:var(--blue); color:#fff}
+.pagination{display:flex; gap:8px; justify-content:center; margin-top:32px}
+.pagination button{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--bg);cursor:pointer;color:var(--ink)}
+.pagination button.active{background:var(--blue); color:#fff; border-color:var(--blue)}
+
+/* Admin */
+.admin-shell{display:grid; grid-template-columns:230px 1fr; min-height:70vh; border:1px solid var(--line); border-radius:16px; overflow:hidden; margin:24px 0 60px}
+.admin-side{background:var(--surface); border-right:1px solid var(--line); padding:20px 14px}
+.admin-side a{display:flex; align-items:center; gap:10px; padding:10px 12px; border-radius:9px; font-size:13.5px; font-weight:600; color:var(--ink-soft); margin-bottom:2px}
+.admin-side a.active, .admin-side a:hover{background:var(--blue-soft); color:var(--blue)}
+.admin-main{padding:28px}
+.stat-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:28px}
+.stat-card{border:1px solid var(--line); border-radius:12px; padding:18px; background:var(--surface)}
+.stat-card .n{font-family:'Fraunces',serif; font-size:28px}
+.admin-table{width:100%; border-collapse:collapse; font-size:13.5px}
+.admin-table th, .admin-table td{text-align:left; padding:12px 10px; border-bottom:1px solid var(--line)}
+.status-pill{padding:3px 10px; border-radius:20px; font-size:11px; font-weight:700}
+.status-published{background:#e6f6ec; color:#12824a}
+.status-draft{background:#f0f1f4; color:#5b6472}
+.status-scheduled{background:var(--blue-soft); color:var(--blue)}
+html.dark .status-published{background:#0f2a1c}
+html.dark .status-draft{background:#1c212c}
+.admin-toolbar{display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; gap:10px; flex-wrap:wrap}
+.modal-overlay{position:fixed; inset:0; background:rgba(5,8,16,.55); display:flex; align-items:center; justify-content:center; z-index:1500; padding:20px}
+.modal-box{background:var(--bg); border-radius:16px; padding:26px; max-width:560px; width:100%; max-height:85vh; overflow:auto; border:1px solid var(--line)}
+.form-row{margin-bottom:14px; display:flex; flex-direction:column; gap:6px}
+.form-row label{font-size:12.5px; font-weight:700; color:var(--ink-soft)}
+.form-row input, .form-row select, .form-row textarea{padding:10px 12px; border-radius:8px; border:1px solid var(--line); background:var(--surface); color:var(--ink); font-family:inherit; font-size:13.5px}
+
+.about-hero, .contact-wrap{padding:48px 0}
+.contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:36px}
+.contact-form input, .contact-form textarea{width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:10px; margin-bottom:14px; font-family:inherit; background:var(--surface); color:var(--ink)}
+
+/* Utility */
+.sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0)}
+.empty-state{text-align:center; padding:60px 20px; color:var(--ink-soft)}
+
+/* Responsive */
+@media (max-width: 980px){
+  .hero-grid{grid-template-columns:1fr}
+  .article-layout{grid-template-columns:1fr}
+  .toc-box{position:static}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .grid-3{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .stat-grid{grid-template-columns:repeat(2,1fr)}
+  .admin-shell{grid-template-columns:1fr}
+  .admin-side{display:flex; overflow-x:auto; border-right:none; border-bottom:1px solid var(--line)}
+}
+@media (max-width: 700px){
+  nav.primary-nav{position:fixed; top:70px; left:0; right:0; bottom:0; background:var(--bg); flex-direction:column; align-items:flex-start; padding:24px; gap:6px; transform:translateX(-100%); transition:transform .25s ease; z-index:999; overflow-y:auto}
+  nav.primary-nav.open{transform:translateX(0)}
+  nav.primary-nav a{width:100%; padding:12px 6px; border-bottom:1px solid var(--line)}
+  .dropdown-menu{position:static; display:flex !important; border:none; box-shadow:none; padding:0 0 0 14px}
+  .burger{display:flex}
+  .grid-4, .grid-3{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr; padding-top:36px}
+  .newsletter{flex-direction:column; align-items:flex-start}
+}
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:0.001ms !important; transition-duration:0.001ms !important}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div id="progressBar"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#/" class="logo" aria-label="Bakhtawar Insights home">
+      <span class="mark">B</span> Bakhtawar Insights
+    </a>
+    <nav class="primary-nav" id="primaryNav">
+      <a href="#/" data-route="/">Home</a>
+      <div class="dropdown">
+        <a href="#/categories" data-route="/categories">Categories ▾</a>
+        <div class="dropdown-menu" id="catDropdown"></div>
+      </div>
+      <a href="#/latest" data-route="/latest">Latest Articles</a>
+      <a href="#/trending" data-route="/trending">Trending</a>
+      <a href="#/about" data-route="/about">About</a>
+      <a href="#/contact" data-route="/contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search"><a href="#/search" style="color:inherit">🔍</a></button>
+      <button class="icon-btn" id="bookmarkBtn" aria-label="Bookmarks"><a href="#/bookmarks" style="color:inherit">🔖</a><span class="badge-count" id="bmCount">0</span></button>
+      <button class="icon-btn" id="darkToggle" aria-label="Toggle dark mode">🌙</button>
+      <a href="#/admin" class="btn btn-outline btn-sm">Admin</a>
+      <button class="icon-btn burger" id="burgerBtn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="ticker-wrap" role="marquee" aria-label="Trending headlines">
+  <div class="ticker-label">Trending</div>
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<main id="main"></main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="logo" style="margin-bottom:12px"><span class="mark">B</span> Bakhtawar Insights</div>
+      <p style="font-size:13.5px; color:var(--ink-soft); max-width:38ch">Premium coverage on AI, technology, business and the ideas shaping tomorrow — reported clearly, published fast.</p>
+      <div class="social-row">
+        <a href="#" class="icon-btn" aria-label="Twitter">𝕏</a>
+        <a href="#" class="icon-btn" aria-label="Facebook">f</a>
+        <a href="#" class="icon-btn" aria-label="LinkedIn">in</a>
+        <a href="#" class="icon-btn" aria-label="Instagram">◎</a>
+      </div>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <ul>
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/latest">Latest Articles</a></li>
+        <li><a href="#/trending">Trending</a></li>
+        <li><a href="#/bookmarks">Bookmarked</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Categories</h5>
+      <ul id="footerCatList"></ul>
+    </div>
+    <div>
+      <h5>Company</h5>
+      <ul>
+        <li><a href="#/about">About Us</a></li>
+        <li><a href="#/contact">Contact</a></li>
+        <li><a href="#/admin">Admin Panel</a></li>
+        <li><a href="#" data-legal="privacy">Privacy Policy</a></li>
+        <li><a href="#" data-legal="terms">Terms of Service</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Bakhtawar Insights. All rights reserved.</span>
+    <span>Built for speed, accessibility &amp; search — Karachi, Pakistan.</span>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent">
+  <p>We use cookies to improve your reading experience and analyze traffic. See our <a href="#" style="color:var(--blue)">Cookie Policy</a>.</p>
+  <button class="btn btn-outline btn-sm" id="cookieDecline">Decline</button>
+  <button class="btn btn-primary btn-sm" id="cookieAccept">Accept</button>
+</div>
+
+<script>
+/* =========================================================
+   BAKHTAWAR INSIGHTS — DATA LAYER (mock CMS content)
+========================================================= */
+const CATEGORIES = [
+  {slug:'ai', name:'AI', desc:'Machine intelligence, LLMs and the systems reshaping every industry.'},
+  {slug:'seo', name:'SEO', desc:'Search visibility, ranking factors and technical optimization.'},
+  {slug:'digital-marketing', name:'Digital Marketing', desc:'Growth, funnels, paid and organic acquisition.'},
+  {slug:'technology', name:'Technology', desc:'Hardware, software and the tools changing how we work.'},
+  {slug:'business', name:'Business', desc:'Strategy, leadership and the modern company.'},
+  {slug:'finance', name:'Finance', desc:'Markets, personal finance and the economy.'},
+  {slug:'health', name:'Health', desc:'Wellness, medicine and healthy living.'},
+  {slug:'education', name:'Education', desc:'Learning, ed-tech and academic life.'},
+  {slug:'lifestyle', name:'Lifestyle', desc:'Culture, habits and everyday living.'},
+  {slug:'travel', name:'Travel', desc:'Destinations, guides and travel trends.'}
+];
+
+const AUTHORS = [
+  {id:'a1', name:'Ayesha Bakhtawar', role:'Editor-in-Chief', bio:'Ayesha founded Bakhtawar Insights to make complex tech and business stories accessible to everyone. She has covered the technology beat for over a decade.', avatar:'https://i.pravatar.cc/150?img=47'},
+  {id:'a2', name:'Daniyal Hasan', role:'Senior Tech Correspondent', bio:'Daniyal writes about artificial intelligence and the companies building it, with a focus on practical impact over hype.', avatar:'https://i.pravatar.cc/150?img=12'},
+  {id:'a3', name:'Meera Sultana', role:'Business & Finance Editor', bio:'Meera covers markets, startups and the economics of growth, translating financial complexity into clear takeaways.', avatar:'https://i.pravatar.cc/150?img=32'},
+  {id:'a4', name:'Omar Faruqi', role:'Lifestyle & Travel Writer', bio:'Omar has visited 40+ countries and writes about travel, culture and the art of living well.', avatar:'https://i.pravatar.cc/150?img=53'}
+];
+
+function para(n){
+  const sentences = [
+    "The pace of change has made it harder than ever to separate signal from noise, but the underlying pattern is consistent across industries.",
+    "Early adopters are already restructuring their workflows around this shift, while others are waiting for clearer evidence before committing resources.",
+    "Analysts point to three factors driving the trend: falling costs, improved tooling, and a generation of users who expect this by default.",
+    "Not every implementation succeeds — the difference between the winners and the rest usually comes down to execution, not access to technology.",
+    "Looking ahead, the organizations that treat this as a core capability rather than a side project are likely to pull further ahead.",
+    "That said, there are real risks worth weighing before jumping in, from data quality issues to the cost of getting it wrong.",
+    "The most useful frameworks focus on small, measurable experiments rather than sweeping transformation plans that rarely survive contact with reality."
+  ];
+  let out = [];
+  for(let i=0;i<n;i++) out.push(sentences[(i*3+n)%sentences.length] + " " + sentences[(i*5+1)%sentences.length]);
+  return out;
+}
+
+function makeArticle(id, title, catSlug, authorId, daysAgo, readMin, featured, trending, img){
+  return {
+    id, title, slug: title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''),
+    category: catSlug, authorId, readMin, featured, trending,
+    date: new Date(Date.now() - daysAgo*86400000).toISOString().slice(0,10),
+    views: Math.floor(4000 + Math.random()*46000),
+    image: img || `https://picsum.photos/seed/bi-${id}/900/600`,
+    excerpt: `A closer look at how ${title.toLowerCase()} is playing out in practice, with what it means for the months ahead.`,
+    toc: ["Why this matters now","The core shift explained","What the data actually shows","Where the risks are","What to do next"],
+    body: [
+      {h:"Why this matters now", p: para(2)},
+      {h:"The core shift explained", p: para(2)},
+      {h:"What the data actually shows", p: para(2)},
+      {h:"Where the risks are", p: para(2)},
+      {h:"What to do next", p: para(2)}
+    ],
+    faqs: [
+      {q:`What is the simplest way to think about ${title.split(' ').slice(0,4).join(' ')}?`, a:"Start with the smallest version of the problem you can measure, then expand once you see a clear, repeatable result."},
+      {q:"How long before results show up?", a:"Most teams see early signal within 4-8 weeks, though full impact typically takes one to two quarters to materialize."},
+      {q:"Does this apply to smaller organizations too?", a:"Yes — the principles scale down well; the main difference is the size of the first experiment, not the approach itself."}
+    ],
+    status: 'published',
+    comments: [
+      {name:'Hassan R.', avatar:'https://i.pravatar.cc/80?img=15', text:'Really clear breakdown, especially the section on risks. More of this please.'},
+      {name:'Zara Khan', avatar:'https://i.pravatar.cc/80?img=25', text:'Curious how this applies to smaller teams without a dedicated budget for it.'}
+    ]
+  };
+}
+
+const TITLES = {
+  ai: ["Why Small Language Models Are Making a Comeback","Inside the Race to Build Reliable AI Agents","How Enterprises Are Actually Using Generative AI","The Quiet Rise of On-Device AI Assistants","What GPT-Style Models Still Get Wrong"],
+  seo: ["How Search Rankings Are Shifting in the AI Era","A Practical Guide to Technical SEO Audits","Why E-E-A-T Matters More Than Ever","Core Web Vitals: What Actually Moves Rankings","Local SEO Tactics That Still Work in 2026"],
+  'digital-marketing': ["The Funnel Is Dead — What Replaces It","Short-Form Video Strategy for Growing Brands","Email Marketing's Surprising Comeback","How Brands Are Using Micro-Influencers","Attribution Models Explained Simply"],
+  technology: ["Inside the Chips Powering the AI Boom","Why Foldable Devices Are Finally Catching On","The State of Quantum Computing in 2026","Edge Computing's Quiet Enterprise Takeover","What's Next After the Smartphone"],
+  business: ["The Return of the Four-Day Work Week Debate","How Startups Are Rethinking Hiring in 2026","Inside the Playbook of Fast-Growing SMBs","Why Middle Management Is Being Redesigned","Lessons From Companies That Scaled Sustainably"],
+  finance: ["What Rising Rates Mean for Everyday Savers","Inside the New Wave of Retail Investing Apps","How to Read a Recession Signal Properly","Personal Finance Habits That Actually Compound","Emerging Markets: Opportunity or Risk in 2026"],
+  health: ["The Science Behind Better Sleep Habits","Why Walking Is Still Underrated Exercise","Mental Health at Work: What's Changing","Nutrition Myths That Won't Die","Preventive Health Checks Worth Prioritizing"],
+  education: ["How AI Tutors Are Changing Classrooms","The Case for Skills-Based Hiring Over Degrees","Why Lifelong Learning Is Becoming Non-Negotiable","Inside the Rise of Micro-Credentials","What Makes Online Courses Actually Work"],
+  lifestyle: ["Minimalism's Quiet Return in 2026","The Habits Behind a Genuinely Balanced Week","Why Slow Mornings Are Trending Again","Home Design Trends Worth Copying This Year","Digital Detox: Fad or Necessity"],
+  travel: ["Underrated Destinations to Visit Before They Trend","A Smarter Way to Plan Multi-City Trips","Why Slow Travel Is Winning Over Tourists","Budget Travel Tips That Still Feel Premium","The Best Season to Visit Northern Pakistan"]
+};
+
+let ARTICLES = [];
+let idc = 1;
+CATEGORIES.forEach((cat, ci) => {
+  TITLES[cat.slug].forEach((t, ti) => {
+    const author = AUTHORS[(ci+ti)%AUTHORS.length].id;
+    const featured = ti===0 && ci<3;
+    const trending = ti<2;
+    ARTICLES.push(makeArticle(idc++, t, cat.slug, author, ci+ti+1, 4+((ci+ti)%9), featured, trending));
+  });
+});
+
+let BOOKMARKS = new Set();
+let DARK = false;
+
+/* =========================================================
+   HELPERS
+========================================================= */
+const $ = (s,el=document)=>el.querySelector(s);
+const $$ = (s,el=document)=>Array.from(el.querySelectorAll(s));
+const byId = id => ARTICLES.find(a=>a.id===id);
+const catName = slug => (CATEGORIES.find(c=>c.slug===slug)||{}).name || slug;
+const authorOf = id => AUTHORS.find(a=>a.id===id);
+const fmtDate = d => new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+const fmtViews = n => n>999 ? (n/1000).toFixed(1)+'k' : n;
+
+function articleCard(a, opts={}){
+  const bookmarked = BOOKMARKS.has(a.id);
+  return `<article class="card">
+    <a href="#/article/${a.slug}"><img src="${a.image}" alt="${a.title}" loading="lazy" width="900" height="600"></a>
+    <div class="card-body">
+      <span class="cat-pill">${catName(a.category)}</span>
+      <h3><a href="#/article/${a.slug}">${a.title}</a></h3>
+      <p class="excerpt">${a.excerpt}</p>
+      <div class="meta-line">
+        <span>${authorOf(a.authorId).name}</span>
+        <span class="dot">${fmtDate(a.date)}</span>
+        <span class="dot">${a.readMin} min read</span>
+        <span class="dot">👁 ${fmtViews(a.views)}</span>
+      </div>
+      <button class="btn btn-outline btn-sm bm-toggle" data-id="${a.id}" style="align-self:flex-start; margin-top:4px">${bookmarked?'★ Bookmarked':'☆ Bookmark'}</button>
+    </div>
+  </article>`;
+}
+
+function setMeta({title, desc, path}){
+  document.title = title;
+  $('meta[name="description"]').setAttribute('content', desc);
+  $('#ogTitle').setAttribute('content', title);
+  $('#ogDesc').setAttribute('content', desc);
+  $('#twTitle').setAttribute('content', title);
+  $('#twDesc').setAttribute('content', desc);
+  $('#canonicalLink').setAttribute('href', 'https://www.bakhtawarinsights.com'+path);
+}
+
+function injectSchema(id, json){
+  let el = document.getElementById(id);
+  if(el) el.remove();
+  el = document.createElement('script');
+  el.type = 'application/ld+json';
+  el.id = id;
+  el.textContent = JSON.stringify(json);
+  document.head.appendChild(el);
+}
+
+/* =========================================================
+   ROUTER
+========================================================= */
+function navigate(){
+  const hash = location.hash.replace(/^#/,'') || '/';
+  const parts = hash.split('/').filter(Boolean);
+  window.scrollTo(0,0);
+  $$('nav.primary-nav a[data-route]').forEach(a=>a.classList.remove('active'));
+
+  if(parts.length===0){ renderHome(); markActive('/'); }
+  else if(parts[0]==='category' && parts[1]){ renderCategory(parts[1], parts[2]?parseInt(parts[2]):1); markActive('/categories'); }
+  else if(parts[0]==='categories'){ renderCategoriesIndex(); markActive('/categories'); }
+  else if(parts[0]==='article' && parts[1]){ renderArticle(parts[1]); }
+  else if(parts[0]==='latest'){ renderLatest(parts[1]?parseInt(parts[1]):1); markActive('/latest'); }
+  else if(parts[0]==='trending'){ renderTrending(); markActive('/trending'); }
+  else if(parts[0]==='search'){ renderSearch(); }
+  else if(parts[0]==='bookmarks'){ renderBookmarks(); }
+  else if(parts[0]==='about'){ renderAbout(); markActive('/about'); }
+  else if(parts[0]==='contact'){ renderContact(); markActive('/contact'); }
+  else if(parts[0]==='admin'){ renderAdmin(parts[1]||'dashboard'); }
+  else { render404(); }
+
+  toggleProgressBar(parts[0]==='article');
+  toggleAdminBodyClass(parts[0]==='admin');
+}
+function markActive(route){
+  const a = $(`nav.primary-nav a[data-route="${route}"]`);
+  if(a) a.classList.add('active');
+}
+window.addEventListener('hashchange', navigate);
+
+/* =========================================================
+   PAGE RENDERERS
+========================================================= */
+function renderHome(){
+  setMeta({title:"Bakhtawar Insights — News, Analysis & Ideas on AI, Business & Technology", desc:"Sharp daily coverage on AI, SEO, Digital Marketing, Technology, Business, Finance, Health, Education, Lifestyle and Travel.", path:"/"});
+  injectSchema('pageSchema', {"@context":"https://schema.org","@type":"WebSite","name":"Bakhtawar Insights","url":"https://www.bakhtawarinsights.com"});
+
+  const featured = ARTICLES.filter(a=>a.featured);
+  const trending = ARTICLES.filter(a=>a.trending).slice(0,6);
+  const latest = [...ARTICLES].sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,8);
+  const mostRead = [...ARTICLES].sort((a,b)=>b.views-a.views).slice(0,5);
+  const editorsPicks = ARTICLES.slice(3,7);
+
+  $('#main').innerHTML = `
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-feature" id="heroFeature"></div>
+      <div class="hero-side">
+        ${trending.slice(0,4).map(a=>`
+          <div class="side-item">
+            <a href="#/article/${a.slug}"><img src="${a.image}" alt="${a.title}" loading="lazy" width="92" height="92"></a>
+            <div>
+              <span class="cat-pill">${catName(a.category)}</span>
+              <h4><a href="#/article/${a.slug}">${a.title}</a></h4>
+              <div class="meta-line"><span>${a.readMin} min read</span></div>
+            </div>
+          </div>`).join('')}
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><h2>Trending Now</h2><a class="see-all" href="#/trending">See all →</a></div>
+    <div class="grid grid-3">${trending.slice(0,3).map(a=>articleCard(a)).join('')}</div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><h2>Latest Articles</h2><a class="see-all" href="#/latest">See all →</a></div>
+    <div class="grid grid-4">${latest.slice(0,8).map(a=>articleCard(a)).join('')}</div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><h2>Popular Categories</h2><a class="see-all" href="#/categories">See all →</a></div>
+    <div class="grid grid-4" id="popularCatsGrid"></div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><h2>Editor's Picks</h2></div>
+    <div class="grid grid-4">${editorsPicks.map(a=>articleCard(a)).join('')}</div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><h2>Most Read Articles</h2></div>
+    <div class="grid grid-3">${mostRead.slice(0,3).map(a=>articleCard(a)).join('')}</div>
+  </section>
+
+  <section class="container">
+    <div class="newsletter">
+      <div>
+        <h2>Get the weekly briefing</h2>
+        <p>One email, every Friday — the stories that mattered across AI, business and technology, with nothing you don't need.</p>
+      </div>
+      <form class="nl-form" id="newsletterForm">
+        <input type="email" required placeholder="you@email.com" aria-label="Email address">
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>`;
+
+  $('#popularCatsGrid').innerHTML = CATEGORIES.slice(0,8).map(c=>`
+    <a class="cat-tile" href="#/category/${c.slug}">
+      <span class="n">${ARTICLES.filter(a=>a.category===c.slug).length} articles</span>
+      <h4>${c.name}</h4>
+    </a>`).join('');
+
+  renderHeroSlider(featured);
+  bindNewsletterForm();
+  bindBookmarkButtons();
+}
+
+let heroIndex = 0, heroTimer = null;
+function renderHeroSlider(featured){
+  const el = $('#heroFeature');
+  function paint(){
+    const a = featured[heroIndex];
+    el.innerHTML = `<img src="${a.image}" alt="${a.title}">
+      <div class="hf-content">
+        <span class="eyebrow" style="color:#8fb0ff">${catName(a.category)} · Featured</span>
+        <h1>${a.title}</h1>
+        <p>${a.excerpt}</p>
+        <div class="meta-line" style="color:#c7d0e6">${authorOf(a.authorId).name}<span class="dot">${fmtDate(a.date)}</span><span class="dot">${a.readMin} min read</span></div>
+        <a href="#/article/${a.slug}" class="btn btn-primary" style="margin-top:14px">Read Story</a>
+        <div class="hero-dots">${featured.map((_,i)=>`<button data-i="${i}" class="${i===heroIndex?'active':''}" aria-label="Slide ${i+1}"></button>`).join('')}</div>
+      </div>`;
+    $$('.hero-dots button', el).forEach(b=>b.addEventListener('click', e=>{ heroIndex = parseInt(e.currentTarget.dataset.i); paint(); resetTimer(); }));
+  }
+  function resetTimer(){ clearInterval(heroTimer); heroTimer = setInterval(()=>{ heroIndex=(heroIndex+1)%featured.length; paint(); }, 5500); }
+  paint(); resetTimer();
+}
+
+function renderCategoriesIndex(){
+  setMeta({title:"Categories — Bakhtawar Insights", desc:"Browse all Bakhtawar Insights categories: AI, SEO, Digital Marketing, Technology, Business, Finance, Health, Education, Lifestyle and Travel.", path:"/categories"});
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Categories</span></div>
+    <h1 style="font-size:32px; margin-bottom:6px">All Categories</h1>
+    <p style="color:var(--ink-soft); margin-bottom:28px">Ten beats, updated daily.</p>
+    <div class="grid grid-4">
+      ${CATEGORIES.map(c=>`
+        <a class="cat-tile" href="#/category/${c.slug}">
+          <span class="n">${ARTICLES.filter(a=>a.category===c.slug).length} articles</span>
+          <h4>${c.name}</h4>
+          <p style="font-size:13px; color:var(--ink-soft)">${c.desc}</p>
+        </a>`).join('')}
+    </div>
+  </section>`;
+}
+
+function renderCategory(slug, page=1){
+  const cat = CATEGORIES.find(c=>c.slug===slug);
+  if(!cat){ render404(); return; }
+  setMeta({title:`${cat.name} News & Articles — Bakhtawar Insights`, desc:`Latest ${cat.name} articles from Bakhtawar Insights: ${cat.desc}`, path:`/category/${slug}`});
+  injectSchema('pageSchema', {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.bakhtawarinsights.com/"},
+    {"@type":"ListItem","position":2,"name":cat.name,"item":`https://www.bakhtawarinsights.com/category/${slug}`}
+  ]});
+
+  const per = 6;
+  const all = ARTICLES.filter(a=>a.category===slug).sort((a,b)=>new Date(b.date)-new Date(a.date));
+  const totalPages = Math.max(1, Math.ceil(all.length/per));
+  page = Math.min(Math.max(1,page), totalPages);
+  const pageItems = all.slice((page-1)*per, page*per);
+
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/categories">Categories</a> / <span>${cat.name}</span></div>
+    <h1 style="font-size:32px">${cat.name}</h1>
+    <p style="color:var(--ink-soft); max-width:60ch; margin-bottom:24px">${cat.desc}</p>
+    <div class="filter-bar">
+      <input type="search" id="catSearch" placeholder="Search in ${cat.name}..." aria-label="Search category">
+      <select id="catSort" aria-label="Sort articles">
+        <option value="new">Newest first</option>
+        <option value="read">Most read</option>
+        <option value="short">Shortest read</option>
+      </select>
+      <span style="font-size:12.5px; color:var(--ink-soft)">${all.length} articles</span>
+    </div>
+    <div class="grid grid-3" id="catGrid">${pageItems.map(a=>articleCard(a)).join('')}</div>
+    <div class="pagination" id="catPagination"></div>
+    <div class="section-head" style="margin-top:52px"><h2>Related Articles</h2></div>
+    <div class="grid grid-3">${ARTICLES.filter(a=>a.category!==slug).sort(()=>Math.random()-0.5).slice(0,3).map(a=>articleCard(a)).join('')}</div>
+  </section>`;
+
+  paintPagination('#catPagination', totalPages, page, p=>location.hash=`#/category/${slug}/${p}`);
+  bindBookmarkButtons();
+
+  function applyFilters(){
+    const q = $('#catSearch').value.toLowerCase();
+    const sort = $('#catSort').value;
+    let list = all.filter(a=>a.title.toLowerCase().includes(q));
+    if(sort==='read') list.sort((a,b)=>b.views-a.views);
+    else if(sort==='short') list.sort((a,b)=>a.readMin-b.readMin);
+    else list.sort((a,b)=>new Date(b.date)-new Date(a.date));
+    $('#catGrid').innerHTML = list.length ? list.slice(0,per).map(a=>articleCard(a)).join('') : `<div class="empty-state">No articles match your search.</div>`;
+    bindBookmarkButtons();
+  }
+  $('#catSearch').addEventListener('input', applyFilters);
+  $('#catSort').addEventListener('change', applyFilters);
+}
+
+function paintPagination(sel, totalPages, current, onClick){
+  const el = $(sel);
+  if(!el || totalPages<=1) { if(el) el.innerHTML=''; return; }
+  let html = '';
+  for(let i=1;i<=totalPages;i++){ html += `<button class="${i===current?'active':''}" data-p="${i}">${i}</button>`; }
+  el.innerHTML = html;
+  $$('button', el).forEach(b=>b.addEventListener('click', ()=>onClick(parseInt(b.dataset.p))));
+}
+
+function renderLatest(page=1){
+  setMeta({title:"Latest Articles — Bakhtawar Insights", desc:"The newest articles published on Bakhtawar Insights across all categories.", path:"/latest"});
+  const per = 9;
+  const all = [...ARTICLES].sort((a,b)=>new Date(b.date)-new Date(a.date));
+  const totalPages = Math.ceil(all.length/per);
+  page = Math.min(Math.max(1,page), totalPages);
+  const items = all.slice((page-1)*per, page*per);
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Latest Articles</span></div>
+    <h1 style="font-size:32px; margin-bottom:22px">Latest Articles</h1>
+    <div class="grid grid-3">${items.map(a=>articleCard(a)).join('')}</div>
+    <div class="pagination" id="latestPagination"></div>
+  </section>`;
+  paintPagination('#latestPagination', totalPages, page, p=>location.hash=`#/latest/${p}`);
+  bindBookmarkButtons();
+}
+
+function renderTrending(){
+  setMeta({title:"Trending — Bakhtawar Insights", desc:"The most-discussed stories on Bakhtawar Insights right now.", path:"/trending"});
+  const list = ARTICLES.filter(a=>a.trending).sort((a,b)=>b.views-a.views);
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Trending</span></div>
+    <h1 style="font-size:32px; margin-bottom:22px">🔥 Trending Now</h1>
+    <div class="grid grid-3">${list.map(a=>articleCard(a)).join('')}</div>
+  </section>`;
+  bindBookmarkButtons();
+}
+
+function renderBookmarks(){
+  setMeta({title:"Your Bookmarks — Bakhtawar Insights", desc:"Articles you've saved to read later.", path:"/bookmarks"});
+  const list = ARTICLES.filter(a=>BOOKMARKS.has(a.id));
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Bookmarks</span></div>
+    <h1 style="font-size:32px; margin-bottom:22px">🔖 Your Bookmarks</h1>
+    ${list.length ? `<div class="grid grid-3">${list.map(a=>articleCard(a)).join('')}</div>` : `<div class="empty-state">No bookmarks yet — tap the bookmark icon on any article to save it here for this session.</div>`}
+  </section>`;
+  bindBookmarkButtons();
+}
+
+function renderSearch(){
+  setMeta({title:"Search — Bakhtawar Insights", desc:"Search Bakhtawar Insights articles across every category.", path:"/search"});
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Search</span></div>
+    <h1 style="font-size:32px; margin-bottom:20px">Search Articles</h1>
+    <div class="filter-bar" style="flex-direction:column; align-items:stretch">
+      <input type="search" id="searchInput" placeholder="Search articles, topics, authors..." aria-label="Search query" style="width:100%; padding:14px 16px; font-size:15px">
+      <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:12px">
+        <span class="chip active" data-cat="all">All</span>
+        ${CATEGORIES.map(c=>`<span class="chip" data-cat="${c.slug}">${c.name}</span>`).join('')}
+      </div>
+    </div>
+    <div id="searchResults"></div>
+  </section>`;
+
+  let activeCat = 'all';
+  function run(){
+    const q = $('#searchInput').value.toLowerCase().trim();
+    let results = ARTICLES.filter(a=> activeCat==='all' || a.category===activeCat);
+    if(q) results = results.filter(a=>a.title.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q) || catName(a.category).toLowerCase().includes(q));
+    $('#searchResults').innerHTML = results.length
+      ? `<p style="color:var(--ink-soft); font-size:13px; margin:20px 0">${results.length} result${results.length===1?'':'s'}</p><div class="grid grid-3">${results.map(a=>articleCard(a)).join('')}</div>`
+      : `<div class="empty-state">No results. Try a different keyword or category.</div>`;
+    bindBookmarkButtons();
+  }
+  $('#searchInput').addEventListener('input', run);
+  $$('.chip').forEach(c=>c.addEventListener('click', ()=>{
+    $$('.chip').forEach(x=>x.classList.remove('active'));
+    c.classList.add('active');
+    activeCat = c.dataset.cat;
+    run();
+  }));
+  run();
+}
+
+function renderArticle(slug){
+  const a = ARTICLES.find(x=>x.slug===slug);
+  if(!a){ render404(); return; }
+  const author = authorOf(a.authorId);
+  const idx = ARTICLES.findIndex(x=>x.id===a.id);
+  const prev = ARTICLES[(idx-1+ARTICLES.length)%ARTICLES.length];
+  const next = ARTICLES[(idx+1)%ARTICLES.length];
+  const related = ARTICLES.filter(x=>x.category===a.category && x.id!==a.id).slice(0,3);
+  const shareUrl = encodeURIComponent(`https://www.bakhtawarinsights.com/article/${a.slug}`);
+
+  setMeta({title:`${a.title} — Bakhtawar Insights`, desc:a.excerpt, path:`/article/${a.slug}`});
+  injectSchema('pageSchema', {
+    "@context":"https://schema.org","@type":"NewsArticle",
+    "headline":a.title,"image":[a.image],"datePublished":a.date,
+    "author":{"@type":"Person","name":author.name},
+    "publisher":{"@type":"Organization","name":"Bakhtawar Insights"},
+    "mainEntityOfPage":`https://www.bakhtawarinsights.com/article/${a.slug}`
+  });
+  injectSchema('breadcrumbSchema', {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.bakhtawarinsights.com/"},
+    {"@type":"ListItem","position":2,"name":catName(a.category),"item":`https://www.bakhtawarinsights.com/category/${a.category}`},
+    {"@type":"ListItem","position":3,"name":a.title}
+  ]});
+
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/category/${a.category}">${catName(a.category)}</a> / <span>${a.title}</span></div>
+    <div class="article-layout">
+      <div>
+        <span class="cat-pill">${catName(a.category)}</span>
+        <h1 class="article-title" style="margin-top:10px">${a.title}</h1>
+        <div class="meta-line" style="margin-bottom:20px">
+          <span>By <a href="#/" style="color:var(--blue)">${author.name}</a></span>
+          <span class="dot">${fmtDate(a.date)}</span>
+          <span class="dot">${a.readMin} min read</span>
+          <span class="dot">👁 ${fmtViews(a.views)} views</span>
+        </div>
+        <img class="article-hero-img" src="${a.image}" alt="${a.title}" loading="lazy">
+        <div class="share-row">
+          <a class="share-btn" href="https://twitter.com/intent/tweet?url=${shareUrl}&text=${encodeURIComponent(a.title)}" target="_blank" rel="noopener" aria-label="Share on X">𝕏</a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" target="_blank" rel="noopener" aria-label="Share on Facebook">f</a>
+          <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}" target="_blank" rel="noopener" aria-label="Share on LinkedIn">in</a>
+          <button class="share-btn bm-toggle" data-id="${a.id}" aria-label="Bookmark">${BOOKMARKS.has(a.id)?'★':'☆'}</button>
+        </div>
+        <div class="article-body">
+          ${a.body.map(sec=>`<h2 id="${slugify(sec.h)}">${sec.h}</h2>${sec.p.map(p=>`<p>${p}</p>`).join('')}`).join('')}
+        </div>
+
+        <div class="author-bio">
+          <img src="${author.avatar}" alt="${author.name}">
+          <div><strong>${author.name}</strong><div style="font-size:12.5px; color:var(--blue); margin:2px 0 6px">${author.role}</div><p style="font-size:13.5px; color:var(--ink-soft); margin:0">${author.bio}</p></div>
+        </div>
+
+        <h3 style="font-size:20px; margin-bottom:6px">Frequently Asked Questions</h3>
+        <div>${a.faqs.map(f=>`<details class="faq-item"><summary>${f.q}<span>+</span></summary><p>${f.a}</p></details>`).join('')}</div>
+
+        <div class="prevnext">
+          <a class="pn-card" href="#/article/${prev.slug}"><span class="eyebrow">← Previous</span><h4 style="font-size:15px; margin-top:6px">${prev.title}</h4></a>
+          <a class="pn-card" href="#/article/${next.slug}" style="text-align:right"><span class="eyebrow">Next →</span><h4 style="font-size:15px; margin-top:6px">${next.title}</h4></a>
+        </div>
+
+        <h3 style="font-size:20px; margin-bottom:14px">Comments (${a.comments.length})</h3>
+        <div id="commentList">${a.comments.map(c=>`<div class="comment"><img src="${c.avatar}" alt="${c.name}"><div><strong style="font-size:13.5px">${c.name}</strong><p style="font-size:13.5px; color:var(--ink-soft); margin:4px 0 0">${c.text}</p></div></div>`).join('')}</div>
+        <form class="comment-form" id="commentForm" style="margin-top:16px">
+          <textarea placeholder="Add a comment..." required></textarea>
+          <button class="btn btn-primary btn-sm" style="margin-top:10px" type="submit">Post Comment</button>
+        </form>
+
+        <h3 style="font-size:20px; margin:36px 0 16px">Related Posts</h3>
+        <div class="grid grid-3">${related.map(r=>articleCard(r)).join('')}</div>
+      </div>
+
+      <aside>
+        <div class="toc-box">
+          <h5>Table of Contents</h5>
+          <ol>${a.body.map(sec=>`<li><a href="#${slugify(sec.h)}">${sec.h}</a></li>`).join('')}</ol>
+        </div>
+      </aside>
+    </div>
+  </section>`;
+
+  bindBookmarkButtons();
+  $('#commentForm').addEventListener('submit', e=>{
+    e.preventDefault();
+    const ta = $('#commentForm textarea');
+    if(!ta.value.trim()) return;
+    a.comments.unshift({name:'You', avatar:'https://i.pravatar.cc/80?img=68', text: ta.value.trim()});
+    $('#commentList').innerHTML = a.comments.map(c=>`<div class="comment"><img src="${c.avatar}" alt="${c.name}"><div><strong style="font-size:13.5px">${c.name}</strong><p style="font-size:13.5px; color:var(--ink-soft); margin:4px 0 0">${c.text}</p></div></div>`).join('');
+    ta.value='';
+  });
+}
+function slugify(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
+
+function renderAbout(){
+  setMeta({title:"About Us — Bakhtawar Insights", desc:"Learn about Bakhtawar Insights, our mission and editorial team.", path:"/about"});
+  $('#main').innerHTML = `
+  <section class="container about-hero">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>About</span></div>
+    <span class="eyebrow">Our story</span>
+    <h1 style="font-size:34px; margin:10px 0 16px; max-width:20ch">Clear reporting on the ideas shaping tomorrow.</h1>
+    <p style="max-width:65ch; color:var(--ink-soft); font-size:15.5px; line-height:1.7">Bakhtawar Insights was founded to cut through the noise around AI, technology and business — publishing coverage that's fast, accurate and genuinely useful, without the hype. We cover ten beats, from artificial intelligence to travel, with the same editorial standard across every one.</p>
+    <div class="section-head" style="margin-top:44px"><h2>Meet the Team</h2></div>
+    <div class="grid grid-4">
+      ${AUTHORS.map(a=>`<div class="card"><div class="card-body" style="align-items:flex-start"><img src="${a.avatar}" alt="${a.name}" style="width:64px;height:64px;border-radius:50%;margin-bottom:8px"><h3>${a.name}</h3><p class="excerpt" style="color:var(--blue)">${a.role}</p><p class="excerpt">${a.bio}</p></div></div>`).join('')}
+    </div>
+  </section>`;
+}
+
+function renderContact(){
+  setMeta({title:"Contact — Bakhtawar Insights", desc:"Get in touch with the Bakhtawar Insights editorial team.", path:"/contact"});
+  $('#main').innerHTML = `
+  <section class="container contact-wrap">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Contact</span></div>
+    <h1 style="font-size:32px; margin-bottom:24px">Get in Touch</h1>
+    <div class="contact-grid">
+      <div>
+        <p style="color:var(--ink-soft); margin-bottom:18px">Have a tip, correction, or partnership idea? Send us a message and the right person on the desk will get back to you.</p>
+        <p style="font-size:14px"><strong>Editorial:</strong> editorial@bakhtawarinsights.com</p>
+        <p style="font-size:14px"><strong>Advertising:</strong> ads@bakhtawarinsights.com</p>
+        <p style="font-size:14px"><strong>Location:</strong> Karachi, Pakistan</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Full name" required>
+        <input type="email" placeholder="Email address" required>
+        <input type="text" placeholder="Subject">
+        <textarea rows="5" placeholder="Your message" required></textarea>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>`;
+  $('#contactForm').addEventListener('submit', e=>{
+    e.preventDefault();
+    $('#contactForm').innerHTML = `<div class="empty-state" style="text-align:left; padding:0"><h3 style="font-size:18px; margin-bottom:6px">Message sent.</h3><p>Thanks for reaching out — the desk typically replies within one business day.</p></div>`;
+  });
+}
+
+function render404(){
+  $('#main').innerHTML = `<section class="container empty-state" style="padding:100px 20px"><h1 style="font-size:32px">404 — Page not found</h1><p>The page you're looking for doesn't exist.</p><a href="#/" class="btn btn-primary" style="margin-top:16px">Back to Home</a></section>`;
+}
+
+/* =========================================================
+   ADMIN PANEL
+========================================================= */
+function toggleAdminBodyClass(on){ document.body.classList.toggle('is-admin', on); }
+
+const ADMIN_NAV = [
+  {id:'dashboard', label:'📊 Dashboard'},
+  {id:'articles', label:'📰 Articles'},
+  {id:'categories', label:'🏷️ Categories'},
+  {id:'authors', label:'✍️ Authors'},
+  {id:'users', label:'👤 Users'},
+  {id:'media', label:'🖼️ Media Library'},
+  {id:'seo', label:'🔍 SEO Settings'},
+  {id:'analytics', label:'📈 Analytics'},
+  {id:'newsletter', label:'✉️ Newsletter'}
+];
+
+function renderAdmin(tab){
+  setMeta({title:"Admin — Bakhtawar Insights", desc:"Content management dashboard.", path:"/admin"});
+  $('#main').innerHTML = `
+  <section class="container">
+    <div class="breadcrumb"><a href="#/">Home</a> / <span>Admin Panel</span></div>
+    <div class="admin-shell">
+      <div class="admin-side">
+        ${ADMIN_NAV.map(n=>`<a href="#/admin/${n.id}" class="${tab===n.id?'active':''}">${n.label}</a>`).join('')}
+      </div>
+      <div class="admin-main" id="adminMain"></div>
+    </div>
+  </section>`;
+  const map = {dashboard:adminDashboard, articles:adminArticles, categories:adminCategories, authors:adminAuthors, users:adminUsers, media:adminMedia, seo:adminSeo, analytics:adminAnalytics, newsletter:adminNewsletter};
+  (map[tab]||adminDashboard)();
+}
+
+function adminDashboard(){
+  const totalViews = ARTICLES.reduce((s,a)=>s+a.views,0);
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Dashboard</h2>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="n">${ARTICLES.length}</span><div style="font-size:12.5px;color:var(--ink-soft)">Total Articles</div></div>
+      <div class="stat-card"><span class="n">${CATEGORIES.length}</span><div style="font-size:12.5px;color:var(--ink-soft)">Categories</div></div>
+      <div class="stat-card"><span class="n">${AUTHORS.length}</span><div style="font-size:12.5px;color:var(--ink-soft)">Authors</div></div>
+      <div class="stat-card"><span class="n">${fmtViews(totalViews)}</span><div style="font-size:12.5px;color:var(--ink-soft)">Total Views</div></div>
+    </div>
+    <h3 style="font-size:16px; margin-bottom:12px">Recently Published</h3>
+    <table class="admin-table">
+      <thead><tr><th>Title</th><th>Category</th><th>Date</th><th>Status</th></tr></thead>
+      <tbody>${[...ARTICLES].sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,6).map(a=>`<tr><td>${a.title}</td><td>${catName(a.category)}</td><td>${fmtDate(a.date)}</td><td><span class="status-pill status-${a.status}">${a.status}</span></td></tr>`).join('')}</tbody>
+    </table>`;
+}
+
+function adminArticles(){
+  paintArticlesTable();
+}
+function paintArticlesTable(){
+  $('#adminMain').innerHTML = `
+    <div class="admin-toolbar">
+      <h2 style="font-size:22px">Articles</h2>
+      <button class="btn btn-primary btn-sm" id="newArticleBtn">+ New Article</button>
+    </div>
+    <table class="admin-table">
+      <thead><tr><th>Title</th><th>Category</th><th>Author</th><th>Status</th><th>Date</th><th></th></tr></thead>
+      <tbody id="articlesBody">${ARTICLES.map(a=>articleRow(a)).join('')}</tbody>
+    </table>`;
+  $('#newArticleBtn').addEventListener('click', ()=>openArticleModal());
+  bindArticleRowActions();
+}
+function articleRow(a){
+  return `<tr data-id="${a.id}">
+    <td>${a.title}</td><td>${catName(a.category)}</td><td>${authorOf(a.authorId).name}</td>
+    <td><span class="status-pill status-${a.status}">${a.status}</span></td><td>${fmtDate(a.date)}</td>
+    <td style="white-space:nowrap"><button class="btn btn-outline btn-sm edit-btn" data-id="${a.id}">Edit</button> <button class="btn btn-outline btn-sm del-btn" data-id="${a.id}">Delete</button></td>
+  </tr>`;
+}
+function bindArticleRowActions(){
+  $$('.edit-btn').forEach(b=>b.addEventListener('click', ()=>openArticleModal(byId(parseInt(b.dataset.id)))));
+  $$('.del-btn').forEach(b=>b.addEventListener('click', ()=>{
+    if(confirm('Delete this article?')){ ARTICLES = ARTICLES.filter(a=>a.id!==parseInt(b.dataset.id)); paintArticlesTable(); }
+  }));
+}
+function openArticleModal(existing){
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.innerHTML = `<div class="modal-box">
+    <h3 style="font-size:18px; margin-bottom:16px">${existing?'Edit Article':'New Article'}</h3>
+    <form id="articleForm">
+      <div class="form-row"><label>Title</label><input required id="fTitle" value="${existing?existing.title.replace(/"/g,'&quot;'):''}"></div>
+      <div class="form-row"><label>Category</label><select id="fCat">${CATEGORIES.map(c=>`<option value="${c.slug}" ${existing&&existing.category===c.slug?'selected':''}>${c.name}</option>`).join('')}</select></div>
+      <div class="form-row"><label>Author</label><select id="fAuthor">${AUTHORS.map(a=>`<option value="${a.id}" ${existing&&existing.authorId===a.id?'selected':''}>${a.name}</option>`).join('')}</select></div>
+      <div class="form-row"><label>Status</label><select id="fStatus">
+        <option value="draft" ${existing&&existing.status==='draft'?'selected':''}>Draft</option>
+        <option value="scheduled" ${existing&&existing.status==='scheduled'?'selected':''}>Scheduled</option>
+        <option value="published" ${(!existing||existing.status==='published')?'selected':''}>Published</option>
+      </select></div>
+      <div class="form-row"><label>Excerpt</label><textarea id="fExcerpt" rows="3">${existing?existing.excerpt:''}</textarea></div>
+      <div style="display:flex; gap:10px; justify-content:flex-end; margin-top:18px">
+        <button type="button" class="btn btn-outline btn-sm" id="cancelModal">Cancel</button>
+        <button type="submit" class="btn btn-primary btn-sm">Save Article</button>
+      </div>
+    </form>
+  </div>`;
+  document.body.appendChild(overlay);
+  $('#cancelModal', overlay).addEventListener('click', ()=>overlay.remove());
+  overlay.addEventListener('click', e=>{ if(e.target===overlay) overlay.remove(); });
+  $('#articleForm', overlay).addEventListener('submit', e=>{
+    e.preventDefault();
+    const title = $('#fTitle', overlay).value.trim();
+    const category = $('#fCat', overlay).value;
+    const authorId = $('#fAuthor', overlay).value;
+    const status = $('#fStatus', overlay).value;
+    const excerpt = $('#fExcerpt', overlay).value.trim();
+    if(existing){
+      Object.assign(existing, {title, category, authorId, status, excerpt, slug:slugify(title)});
+    } else {
+      const na = makeArticle(Math.max(...ARTICLES.map(a=>a.id))+1, title||'Untitled Article', category, authorId, 0, 5, false, false);
+      na.status = status; na.excerpt = excerpt || na.excerpt;
+      ARTICLES.unshift(na);
+    }
+    overlay.remove();
+    paintArticlesTable();
+  });
+}
+
+function adminCategories(){
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Categories</h2>
+    <table class="admin-table"><thead><tr><th>Name</th><th>Slug</th><th>Articles</th><th>Description</th></tr></thead>
+    <tbody>${CATEGORIES.map(c=>`<tr><td>${c.name}</td><td class="mono">/${c.slug}</td><td>${ARTICLES.filter(a=>a.category===c.slug).length}</td><td style="color:var(--ink-soft)">${c.desc}</td></tr>`).join('')}</tbody></table>`;
+}
+function adminAuthors(){
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Authors</h2>
+    <table class="admin-table"><thead><tr><th>Author</th><th>Role</th><th>Articles</th></tr></thead>
+    <tbody>${AUTHORS.map(a=>`<tr><td style="display:flex;align-items:center;gap:10px"><img src="${a.avatar}" style="width:28px;height:28px;border-radius:50%"> ${a.name}</td><td>${a.role}</td><td>${ARTICLES.filter(x=>x.authorId===a.id).length}</td></tr>`).join('')}</tbody></table>`;
+}
+function adminUsers(){
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Users</h2>
+    <table class="admin-table"><thead><tr><th>Name</th><th>Email</th><th>Role</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Ayesha Bakhtawar</td><td>ayesha@bakhtawarinsights.com</td><td>Super Admin</td><td><span class="status-pill status-published">Active</span></td></tr>
+      <tr><td>Daniyal Hasan</td><td>daniyal@bakhtawarinsights.com</td><td>Editor</td><td><span class="status-pill status-published">Active</span></td></tr>
+      <tr><td>Meera Sultana</td><td>meera@bakhtawarinsights.com</td><td>Editor</td><td><span class="status-pill status-published">Active</span></td></tr>
+      <tr><td>Guest Contributor</td><td>guest@bakhtawarinsights.com</td><td>Contributor</td><td><span class="status-pill status-draft">Pending</span></td></tr>
+    </tbody></table>`;
+}
+function adminMedia(){
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Media Library</h2>
+    <div class="grid grid-4">${ARTICLES.slice(0,12).map(a=>`<div class="card"><img src="${a.image}" alt="${a.title}" loading="lazy"><div class="card-body"><span style="font-size:11.5px; color:var(--ink-soft)" class="mono">${a.image.split('/').pop()}.jpg</span></div></div>`).join('')}</div>`;
+}
+function adminSeo(){
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">SEO Settings</h2>
+    <div class="form-row"><label>Site Title</label><input value="Bakhtawar Insights — News, Analysis & Ideas"></div>
+    <div class="form-row"><label>Meta Description</label><textarea rows="2">Sharp daily coverage on AI, SEO, Digital Marketing, Technology, Business, Finance, Health, Education, Lifestyle and Travel.</textarea></div>
+    <div class="form-row"><label>Default OG Image</label><input value="https://www.bakhtawarinsights.com/og-cover.jpg"></div>
+    <div class="form-row"><label>XML Sitemap</label><input value="https://www.bakhtawarinsights.com/sitemap.xml" readonly></div>
+    <div class="form-row"><label>Robots.txt</label><input value="https://www.bakhtawarinsights.com/robots.txt" readonly></div>
+    <button class="btn btn-primary btn-sm">Save Settings</button>`;
+}
+function adminAnalytics(){
+  const totalViews = ARTICLES.reduce((s,a)=>s+a.views,0);
+  const byCat = CATEGORIES.map(c=>({name:c.name, views:ARTICLES.filter(a=>a.category===c.slug).reduce((s,a)=>s+a.views,0)})).sort((a,b)=>b.views-a.views);
+  const max = Math.max(...byCat.map(c=>c.views));
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Analytics</h2>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="n">${fmtViews(totalViews)}</span><div style="font-size:12.5px;color:var(--ink-soft)">Total Views</div></div>
+      <div class="stat-card"><span class="n">${fmtViews(Math.round(totalViews*0.62))}</span><div style="font-size:12.5px;color:var(--ink-soft)">Unique Readers</div></div>
+      <div class="stat-card"><span class="n">3:42</span><div style="font-size:12.5px;color:var(--ink-soft)">Avg. Read Time</div></div>
+      <div class="stat-card"><span class="n">38%</span><div style="font-size:12.5px;color:var(--ink-soft)">Return Visitors</div></div>
+    </div>
+    <h3 style="font-size:16px; margin-bottom:12px">Views by Category</h3>
+    <div style="display:flex; flex-direction:column; gap:10px">
+      ${byCat.map(c=>`<div><div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:4px"><span>${c.name}</span><span class="mono">${fmtViews(c.views)}</span></div><div style="height:8px; border-radius:4px; background:var(--surface-2)"><div style="height:100%; border-radius:4px; background:var(--blue); width:${(c.views/max*100).toFixed(0)}%"></div></div></div>`).join('')}
+    </div>`;
+}
+function adminNewsletter(){
+  $('#adminMain').innerHTML = `
+    <h2 style="font-size:22px; margin-bottom:18px">Newsletter Management</h2>
+    <div class="stat-grid">
+      <div class="stat-card"><span class="n">12,480</span><div style="font-size:12.5px;color:var(--ink-soft)">Subscribers</div></div>
+      <div class="stat-card"><span class="n">47.2%</span><div style="font-size:12.5px;color:var(--ink-soft)">Avg. Open Rate</div></div>
+      <div class="stat-card"><span class="n">6.1%</span><div style="font-size:12.5px;color:var(--ink-soft)">Click Rate</div></div>
+      <div class="stat-card"><span class="n">Weekly</span><div style="font-size:12.5px;color:var(--ink-soft)">Send Frequency</div></div>
+    </div>
+    <h3 style="font-size:16px; margin-bottom:12px">Recent Campaigns</h3>
+    <table class="admin-table"><thead><tr><th>Subject</th><th>Sent</th><th>Opens</th><th>Clicks</th></tr></thead>
+    <tbody>
+      <tr><td>This Week in AI: Agents Go Mainstream</td><td>Jul 11, 2026</td><td>48.3%</td><td>7.2%</td></tr>
+      <tr><td>Finance Weekly: Rates, Risk & Retail Investors</td><td>Jul 4, 2026</td><td>46.8%</td><td>5.9%</td></tr>
+      <tr><td>The Business Briefing</td><td>Jun 27, 2026</td><td>45.1%</td><td>6.4%</td></tr>
+    </tbody></table>`;
+}
+
+/* =========================================================
+   GLOBAL UI BEHAVIOR
+========================================================= */
+function bindBookmarkButtons(){
+  $$('.bm-toggle').forEach(btn=>{
+    btn.addEventListener('click', e=>{
+      e.preventDefault();
+      const id = parseInt(btn.dataset.id);
+      if(BOOKMARKS.has(id)) BOOKMARKS.delete(id); else BOOKMARKS.add(id);
+      $('#bmCount').textContent = BOOKMARKS.size;
+      if(btn.classList.contains('share-btn')) btn.textContent = BOOKMARKS.has(id)?'★':'☆';
+      else btn.textContent = BOOKMARKS.has(id)?'★ Bookmarked':'☆ Bookmark';
+    });
+  });
+}
+function bindNewsletterForm(){
+  const f = $('#newsletterForm');
+  if(!f) return;
+  f.addEventListener('submit', e=>{
+    e.preventDefault();
+    f.innerHTML = `<p style="color:#fff; font-weight:600">✓ Subscribed — check your inbox to confirm.</p>`;
+  });
+}
+
+function toggleProgressBar(isArticle){
+  const bar = $('#progressBar');
+  if(!isArticle){ bar.style.width='0%'; return; }
+  function onScroll(){
+    const h = document.documentElement;
+    const scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    bar.style.width = scrolled + '%';
+  }
+  window.addEventListener('scroll', onScroll);
+  onScroll();
+}
+
+/* Populate nav dropdown + footer + ticker */
+function paintStaticChrome(){
+  $('#catDropdown').innerHTML = CATEGORIES.map(c=>`<a href="#/category/${c.slug}">${c.name}</a>`).join('');
+  $('#footerCatList').innerHTML = CATEGORIES.slice(0,6).map(c=>`<li><a href="#/category/${c.slug}">${c.name}</a></li>`).join('');
+  const trend = ARTICLES.filter(a=>a.trending);
+  const tickerHtml = trend.map(a=>`<span>${a.title}</span>`).join('');
+  $('#tickerTrack').innerHTML = tickerHtml + tickerHtml;
+}
+paintStaticChrome();
+
+/* Dark mode */
+$('#darkToggle').addEventListener('click', ()=>{
+  DARK = !DARK;
+  document.documentElement.classList.toggle('dark', DARK);
+  $('#darkToggle').textContent = DARK ? '☀️' : '🌙';
+});
+
+/* Mobile menu */
+$('#burgerBtn').addEventListener('click', ()=>{
+  $('#primaryNav').classList.toggle('open');
+});
+$$('.primary-nav a[data-route], .primary-nav a[href^="#/"]').forEach(a=>{
+  a.addEventListener('click', ()=>$('#primaryNav').classList.remove('open'));
+});
+
+/* Cookie consent */
+const cookieBanner = $('#cookieBanner');
+$('#cookieAccept').addEventListener('click', ()=>cookieBanner.style.display='none');
+$('#cookieDecline').addEventListener('click', ()=>cookieBanner.style.display='none');
+
+/* Boot */
+navigate();
+</script>
+</body>
+</html>
